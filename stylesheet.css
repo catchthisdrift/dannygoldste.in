@@ -120,8 +120,8 @@ vertical-align: text-top;
 }
 
 #email{
-font-family: "Roc Grotesk Wide ExtraBold";
-font-weight: normal;
+font-family: roc-grotesk-wide, sans-serif;
+font-weight: 700;
 font-size: 18px;
 letter-spacing: 0.11em;
 line-height: 30px;
