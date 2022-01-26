@@ -1,4 +1,132 @@
-#test {
-  color: #FFA526;
-  font-size: 300px;
+body {
+  background-color: #1F2126;
+}
+
+#avatar{
+  max-width: 128px;
+  margin-top: 20px;
+}
+
+#page {
+  margin: auto;
+  width: 75vw;
+  max-width:400px;
+  padding: 10%;
+  background-color: #1F2126;
+  height: 100vh;
+}
+
+h1 {
+  font-family: "Roc Grotesk Wide ExtraBold";
+  font-weight: 2000;
+  text-transform: uppercase;
+  font-size: 25px;
+  color: #B2B2B2;
+  letter-spacing: 0.03em;
+}
+
+h2 {
+  font-family: "Roc Grotesk Wide ExtraBold";
+  font-weight: 2000;
+  text-transform: uppercase;
+  font-size: 25px;
+  -webkit-text-stroke: 1px #B2B2B2;
+  color: transparent;
+  max-width: 78%;
+  letter-spacing: 0.07em;
+  margin-bottom: -5px;
+}
+
+p {
+  font-family: "Roc Grotesk";
+  font-size: 16px;
+  color: #B2B2B2;
+  max-width: 78%;
+  margin-top: 4px;
+}
+
+p {
+  font-family: "Roc Grotesk";
+  font-size: 16px;
+  color: #B2B2B2;
+  max-width: 78%;
+}
+
+#margin {
+  margin: 50px auto;
+  width: 90%;
+  background-color: silver;
+  height: 90%;
+  padding: 10px;
+}
+
+#links {
+  max-width: 75%;
+  margin-bottom: 25px;
+  height: 88px;
+}
+
+#links a{
+  text-decoration:none;
+}
+
+.btn-1 {
+float: left;
+width: 105px;
+height: 36px;
+border-radius: 1.5px;
+background: #b4b4b4;
+border: 1px solid #b4b4b4;
+text-align: center;
+margin:8px 8px 0 0;
+}
+
+.btn-1 hover{
+float: left;
+width: 105px;
+height: 36px;
+border-radius: 1.5px;
+background: #FFA525;
+border: 1px solid #b4b4b4;
+text-align: center;
+margin: 8px 8px 0 0;
+}
+
+.btn-1 a {
+font-family: "Roc Grotesk ExtraBold";
+font-weight: normal;
+font-size: 20px;
+color: #1f2126;
+line-height:35px;
+vertical-align: text-top;
+}
+
+.btn-2 {
+float: left;
+width: 105px;
+height: 36px;
+border-radius: 1.5px;
+background: transparent;
+border: 1px solid #b4b4b4;
+text-align: center;
+margin:8px 8px 0 0;
+}
+
+.btn-2 a {
+font-family: "Roc Grotesk ExtraBold";
+font-weight: normal;
+font-size: 20px;
+color: #b4b4b4;
+line-height:35px;
+vertical-align: text-top;
+}
+
+#email{
+font-family: "Roc Grotesk Wide ExtraBold";
+font-weight: normal;
+font-size: 18px;
+letter-spacing: 0.11em;
+line-height: 30px;
+text-align: left;
+color: #b4b4b4;
 }
