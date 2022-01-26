@@ -62,15 +62,12 @@ p {
 .btn-1 {
 float: left;
 width: 13rem;
-height: 2.5rem;
+height: 4.5rem;
 border-radius: 1.5px;
 background: #b4b4b4;
 border: 1px solid #b4b4b4;
 text-align: center;
 margin: 8px 8px 0 0;
-}
-
-.btn-1 hover{
 }
 
 .btn-1 a {
