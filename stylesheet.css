@@ -38,27 +38,12 @@ h2 {
 }
 
 p {
-	font-family: roc-grotesk, sans-serif;
-	font-weight: 400;
+  font-family: roc-grotesk, sans-serif;
+  font-weight: 400;
   font-size: 16px;
   color: #B2B2B2;
   max-width: 78%;
   margin-top: 4px;
-}
-
-p {
-  font-family: "Roc Grotesk";
-  font-size: 16px;
-  color: #B2B2B2;
-  max-width: 78%;
-}
-
-#margin {
-  margin: 50px auto;
-  width: 90%;
-  background-color: silver;
-  height: 90%;
-  padding: 10px;
 }
 
 #links {
