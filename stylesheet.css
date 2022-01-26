@@ -48,7 +48,7 @@ p {
 #links {
   max-width: 75%;
   margin-bottom: 3rem;
-  height: 11rem;
+  height: 22rem;
 }
 
 #links a{
@@ -62,7 +62,7 @@ p {
 .btn-1 {
 float: left;
 width: 13rem;
-height: 4.5rem;
+height: 2.5rem;
 border-radius: 1.5px;
 background: #b4b4b4;
 border: 1px solid #b4b4b4;
@@ -97,7 +97,7 @@ vertical-align: text-top;
 #email{
 font-family: roc-grotesk-wide, sans-serif;
 font-weight: 700;
-font-size: 2rem;
+font-size: 2.5rem;
 letter-spacing: 0.11em;
 line-height: 4rem;
 text-align: left;
