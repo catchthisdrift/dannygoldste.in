@@ -16,25 +16,9 @@ body {
   height: 100vh;
 }
 
-h1	{text-align:center;
-	font-family: roc-grotesk-wide, sans-serif;
-	font-weight: 700;
-	font-style: normal;
-	}
-
-p	{text-align:center;
-
-	font-style: normal;
-	}
-
-a	{text-align:center;
-
-	font-style: normal;
-	}
-
 h1 {
-	font-family: roc-grotesk-wide, sans-serif;
-	font-weight: 700;
+  font-family: roc-grotesk-wide, sans-serif;
+  font-weight: 700;
   text-transform: uppercase;
   font-size: 25px;
   color: #B2B2B2;
@@ -42,8 +26,8 @@ h1 {
 }
 
 h2 {
-  font-family: "Roc Grotesk Wide ExtraBold";
-  font-weight: 2000;
+  font-family: roc-grotesk-wide, sans-serif;
+  font-weight: 700;
   text-transform: uppercase;
   font-size: 25px;
   -webkit-text-stroke: 1px #B2B2B2;
@@ -86,7 +70,7 @@ p {
 #links a{
   text-decoration:none;
   font-family: roc-grotesk, sans-serif;
-	font-weight: 700;
+  font-weight: 700;
   font-size: 20px;
 }
 
