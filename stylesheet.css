@@ -101,3 +101,9 @@ line-height: 4rem;
 text-align: left;
 color: #b4b4b4;
 }
+
+@media only screen and (max-width: 800px) {
+  body {
+    background-color: #2D0493;
+  }
+}
