@@ -4,14 +4,14 @@ body {
 
 #avatar{
   max-width: 16rem;
-  margin-top: 1.25rem;
+  opacity: 0.25;
 }
 
 .avatar{
   width: 16rem;
   height: 16rem;
   margin-top: 1.25rem;
-  background-color: red;
+  background-image: url(me-still.gif);
 }
 
 #page {
