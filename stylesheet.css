@@ -66,14 +66,15 @@ width: 13rem;
 height: 4.5rem;
 border-radius: 1.5px;
 background: #b4b4b4;
+color: #1f2126;
 border: 1px solid #b4b4b4;
 text-align: center;
 margin: 1rem 1rem 0 0;
 }
 
-.btn-1 a {
-color: #1f2126;
-vertical-align: text-top;
+.btn-1:hover {
+background: transparent;
+color: #b4b4b4;
 }
 
 .btn-2 {
