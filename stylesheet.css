@@ -8,7 +8,8 @@ body {
 }
 
 .avatar{
-  max-width: 16rem;
+  width: 16rem;
+  height: 16rem;
   margin-top: 1.25rem;
   background-color: red;
 }
