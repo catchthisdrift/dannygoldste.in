@@ -83,14 +83,15 @@ width: 13rem;
 height: 4.5rem;
 border-radius: 1.5px;
 background: transparent;
+color: #b4b4b4;
 border: 1px solid #b4b4b4;
 text-align: center;
 margin: 1rem 1rem 0 0;
 }
 
-.btn-2 a {
+.btn-2:hover {
+background: transparent;
 color: #b4b4b4;
-vertical-align: text-top;
 }
 
 #email{
