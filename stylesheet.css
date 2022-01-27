@@ -3,7 +3,7 @@ body {
 }
 
 #avatar{
-  max-width: 256px;
+  max-width: 16rem;
   margin-top: 1.25rem;
 }
 
@@ -41,12 +41,12 @@ p {
   font-weight: 400;
   font-size: 2rem;
   color: #B2B2B2;
-  max-width: 90%;
+  max-width: 43rem;
   margin-top: .25rem;
 }
 
 #links {
-  max-width: 75%;
+  max-width: 28.5rem;
   margin-bottom: 3rem;
   height: 11rem;
 }
@@ -102,8 +102,8 @@ text-align: left;
 color: #b4b4b4;
 }
 
-@media only screen and (max-width: 800px) {
-  body {
-    background-color: #2D0493;
+@@media only screen and (min-width: 800px) {
+  html {
+    font-size:50%;
   }
 }
