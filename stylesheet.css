@@ -5,7 +5,8 @@ body {
 #avatar{
   max-width: 16rem;
   transition-duration: 0.7s;
-  transition-delay:0.1s;
+  transition-delay: 0.1s;
+  border-radius: 1.5px;
 }
 
 .avatar{
@@ -13,7 +14,8 @@ body {
   height: 16rem;
   margin-top: 1.25rem;
   background-image: url(files/me-still.gif);
-  background-size:100%;
+  background-size: 100%;
+  border-radius: 1.5px;
 }
 
 #page {
