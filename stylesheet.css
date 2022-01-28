@@ -104,6 +104,8 @@ color: #1f2126;
 }
 
 #email{
+-webkit-user-select: all;
+user-select: all;
 font-family: roc-grotesk-wide, sans-serif;
 font-weight: 700;
 font-size: 2.5rem;
