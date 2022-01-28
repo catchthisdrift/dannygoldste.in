@@ -132,5 +132,7 @@ text-decoration: none;
 
   #avatar:hover{
   opacity:100;
+  transition-duration: 0.15s;
+  transition-timing-function: ease-in-out;
   }
 }
