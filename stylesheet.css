@@ -4,6 +4,8 @@ body {
 
 #avatar{
   max-width: 16rem;
+  transition-duration: 0.7s;
+  transition-delay:0.1s;
 }
 
 .avatar{
@@ -70,54 +72,54 @@ p {
 }
 
 .btn-1 {
-float: left;
-width: 13rem;
-height: 4.5rem;
-border-radius: 1.5px;
-background: #b4b4b4;
-color: #1f2126;
-border: 1px solid #b4b4b4;
-text-align: center;
-margin: 1rem 1rem 0 0;
-transition-duration: 0.25s;
-transition-timing-function: ease-in-out;
+  float: left;
+  width: 13rem;
+  height: 4.5rem;
+  border-radius: 1.5px;
+  background: #b4b4b4;
+  color: #1f2126;
+  border: 1px solid #b4b4b4;
+  text-align: center;
+  margin: 1rem 1rem 0 0;
+  transition-duration: 0.25s;
+  transition-timing-function: ease-in-out;
 }
 
 .btn-1:hover {
-background: transparent;
-color: #b4b4b4;
+  background: transparent;
+  color: #b4b4b4;
 }
 
 .btn-2 {
-float: left;
-width: 13rem;
-height: 4.5rem;
-border-radius: 1.5px;
-background: transparent;
-color: #b4b4b4;
-border: 1px solid #b4b4b4;
-text-align: center;
-margin: 1rem 1rem 0 0;
-transition-duration: 0.25s;
-transition-timing-function: ease-in-out;
+  float: left;
+  width: 13rem;
+  height: 4.5rem;
+  border-radius: 1.5px;
+  background: transparent;
+  color: #b4b4b4;
+  border: 1px solid #b4b4b4;
+  text-align: center;
+  margin: 1rem 1rem 0 0;
+  transition-duration: 0.25s;
+  transition-timing-function: ease-in-out;
 }
 
 .btn-2:hover {
-background: #b4b4b4;
-color: #1f2126;
+  background: #b4b4b4;
+  color: #1f2126;
 }
 
 #email{
--webkit-user-select: all;
-user-select: all;
-font-family: roc-grotesk-wide, sans-serif;
-font-weight: 700;
-font-size: 2.5rem;
-letter-spacing: 0.11em;
-line-height: 4rem;
-text-align: left;
-color: #b4b4b4;
-text-decoration: none;
+  -webkit-user-select: all;
+  user-select: all;
+  font-family: roc-grotesk-wide, sans-serif;
+  font-weight: 700;
+  font-size: 2.5rem;
+  letter-spacing: 0.11em;
+  line-height: 4rem;
+  text-align: left;
+  color: #b4b4b4;
+  text-decoration: none;
 }
 
 @media only screen and (orientation: landscape) {
@@ -126,13 +128,11 @@ text-decoration: none;
   }
   
   #avatar{
-  max-width: 16rem;
-  opacity: 0;
+    max-width: 16rem;
+    opacity: 0;
   }
 
   #avatar:hover{
-  opacity:100;
-  transition-duration: 0.15s;
-  transition-timing-function: ease-in-out;
+    opacity:100;
   }
 }
