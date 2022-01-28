@@ -111,6 +111,7 @@ letter-spacing: 0.11em;
 line-height: 4rem;
 text-align: left;
 color: #b4b4b4;
+text-decoration: none;
 }
 
 @media only screen and (orientation: landscape) {
