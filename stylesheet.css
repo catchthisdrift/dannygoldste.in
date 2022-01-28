@@ -19,7 +19,7 @@ body {
   width: 42.8rem;
   padding: 10%;
   background-color: #1F2126;
-  height: 75vh;
+  height: 60vh;
 }
 
 h1 {
@@ -28,7 +28,7 @@ h1 {
   text-transform: uppercase;
   font-size: 3.5rem;
   color: #B2B2B2;
-  letter-spacing: 0.1rem;
+  letter-spacing: 0.5rem;
 }
 
 h2 {
@@ -49,12 +49,13 @@ p {
   font-size: 2rem;
   color: #B2B2B2;
   max-width: 43rem;
-  margin-top: .25rem;
+  margin-top: .6rem;
 }
 
 #links {
   max-width: 28.5rem;
-  margin-bottom: 3rem;
+  margin-top: 0.3rem;
+  margin-bottom: 4rem;
   height: 11rem;
 }
 
