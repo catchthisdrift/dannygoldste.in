@@ -1,5 +1,10 @@
+:root {
+ --back: #B4B4B4;
+ --fore: #1F2126;
+}
+
 body {
-  background-color: #1F2126;
+  background-color: var(--back);
 }
 
 #avatar{
@@ -22,7 +27,7 @@ body {
   margin: auto;
   width: 42.8rem;
   padding: 10%;
-  background-color: #1F2126;
+  background-color: var(--back);
   height: 60vh;
 }
 
@@ -31,7 +36,7 @@ h1 {
   font-weight: 700;
   text-transform: uppercase;
   font-size: 3.5rem;
-  color: #B2B2B2;
+  color: var(--fore);
   letter-spacing: 0.1rem;
   margin-bottom: -0.5rem;
 }
@@ -41,7 +46,7 @@ h2 {
   font-weight: 700;
   text-transform: uppercase;
   font-size: 3.5rem;
-  -webkit-text-stroke: 1px #B2B2B2;
+  -webkit-text-stroke: 1px var(--fore);
   color: transparent;
   max-width: 78%;
   letter-spacing: 0.2rem;
@@ -52,7 +57,7 @@ p {
   font-family: roc-grotesk, sans-serif;
   font-weight: 400;
   font-size: 2rem;
-  color: #B2B2B2;
+  color: var(--fore);
   max-width: 43rem;
   margin-top: .6rem;
 }
@@ -78,9 +83,9 @@ p {
   width: 13rem;
   height: 4.5rem;
   border-radius: 1.5px;
-  background: #b4b4b4;
-  color: #1f2126;
-  border: 1px solid #b4b4b4;
+  background: var(--fore);
+  color: var(--back);
+  border: 1px solid var(--fore);
   text-align: center;
   margin: 1rem 1rem 0 0;
   transition-duration: 0.25s;
@@ -89,7 +94,7 @@ p {
 
 .btn-1:hover {
   background: transparent;
-  color: #b4b4b4;
+  color: var(--fore);
 }
 
 .btn-2 {
@@ -98,8 +103,8 @@ p {
   height: 4.5rem;
   border-radius: 1.5px;
   background: transparent;
-  color: #b4b4b4;
-  border: 1px solid #b4b4b4;
+  color: var(--fore);
+  border: 1px solid var(--fore);
   text-align: center;
   margin: 1rem 1rem 0 0;
   transition-duration: 0.25s;
@@ -107,8 +112,8 @@ p {
 }
 
 .btn-2:hover {
-  background: #b4b4b4;
-  color: #1f2126;
+  background: var(--fore);
+  color: var(--back);
 }
 
 #email{
@@ -120,7 +125,7 @@ p {
   letter-spacing: 0.11em;
   line-height: 4rem;
   text-align: left;
-  color: #b4b4b4;
+  color: var(--fore);
   text-decoration: none;
 }
 
@@ -128,7 +133,7 @@ p {
   html {
     font-size:50%;
   }
-  
+
   #avatar{
     max-width: 16rem;
     opacity: 0;
