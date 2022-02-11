@@ -1,10 +1,15 @@
 :root {
- --back: #B4B4B4;
- --fore: #1F2126;
+  --back: #F2F1EE;
+  --fore: #1B1B1A;
 }
 
 body {
   background-color: var(--back);
+}
+
+::selection{
+  background-color:#E1FF41;
+  color:#151806;
 }
 
 #avatar{
@@ -51,6 +56,10 @@ h2 {
   max-width: 78%;
   letter-spacing: 0.2rem;
   margin-bottom: -0.1rem;
+  -webkit-user-select: none; /* Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+/Edge */
+  user-select: none; /* Standard */
 }
 
 p {
@@ -76,6 +85,10 @@ p {
   font-size: 2.25rem;
   line-height: 4.8rem;
   text-transform: uppercase;
+  -webkit-user-select: none; /* Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+/Edge */
+  user-select: none; /* Standard */
 }
 
 .btn-1 {
